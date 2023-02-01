@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import * as React from 'react';
-import { visitFiles } from '../utils/visit-files';
 
 export default function Home() {
-  const test = visitFiles('../exercices');
   return (
     <div>
       <Head>
